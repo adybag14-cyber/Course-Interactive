@@ -48,7 +48,7 @@ This repository contains a complete static course that can be opened directly in
 The exported HTML includes several hands-on widgets:
 
 - Page-specific labs - run the unique miniature example attached to each lesson.
-- Page-specific working diagrams - trace sample input, invariant, transition, and output for each lesson.
+- Page-specific working diagrams - trace sample input, invariant, transition, and output for each lesson in wrapped responsive stage cards.
 - Student practice studio - generate first-step prompts, edge cases, rubrics, and next-change challenges.
 - Complexity Explorer - compare growth functions and input sizes on a canvas.
 - Binary Search Stepper - walk through a half-open interval search.

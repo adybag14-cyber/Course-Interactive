@@ -35,6 +35,7 @@ jobs:
           grep -q "practice-studio" cs_algorithms_interactive_course_500_pages.html
           grep -q "final-diagram-pass" cs_algorithms_interactive_course_500_pages.html
           grep -q "final-anchor-pass" cs_algorithms_interactive_course_500_pages.html
+          grep -q "diagram-layout-final" cs_algorithms_interactive_course_500_pages.html
 
   deploy:
     name: Deploy to GitHub Pages
