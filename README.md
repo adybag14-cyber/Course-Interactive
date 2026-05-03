@@ -2,7 +2,7 @@
 
 [![Publish GitHub Pages](https://github.com/adybag14-cyber/Course-Interactive/actions/workflows/pages.yml/badge.svg)](https://github.com/adybag14-cyber/Course-Interactive/actions/workflows/pages.yml)
 
-A self-contained, browser-based computer science algorithms course with 561 printable pages, an exported Jupyter notebook, search, progress tracking, quizzes, reference code sketches, page-specific labs, working diagrams, and interactive visualizers.
+A self-contained, browser-based computer science algorithms course with 561 printable pages, an exported Jupyter notebook, search, progress tracking, quizzes, reference code sketches, page-specific labs, working diagrams, curated reference shelves, extra code harnesses, and interactive visualizers.
 
 Open the live course here:
 
@@ -37,6 +37,11 @@ This repository contains a complete static course that can be opened directly in
 - Practice tasks for each topic.
 - Browser-only interactive widgets that do not need a backend.
 - A runnable page-specific lab, real code card, and rendered working diagram on every routed lesson page.
+- Page-local deep-read guidance and chapter-anchor pointers on every routed lesson page, so students can find the heavier explanation for each chapter.
+- Manual review notes on every lesson page: what to inspect first, common traps, and expected student deliverables.
+- A curated reference shelf on every lesson page with official docs, algorithm notes, platform references, and visualization references.
+- Extra Python edge-case harnesses and browser JavaScript companions for every lesson page.
+- A student practice studio on every lesson page with first-step, edge-case, rubric, and next-change prompts.
 
 ## Interactive Sections
 
@@ -44,6 +49,7 @@ The exported HTML includes several hands-on widgets:
 
 - Page-specific labs - run the unique miniature example attached to each lesson.
 - Page-specific working diagrams - trace sample input, invariant, transition, and output for each lesson.
+- Student practice studio - generate first-step prompts, edge cases, rubrics, and next-change challenges.
 - Complexity Explorer - compare growth functions and input sizes on a canvas.
 - Binary Search Stepper - walk through a half-open interval search.
 - Sorting Visualizer - animate bubble, insertion, and selection sort.

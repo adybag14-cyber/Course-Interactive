@@ -31,6 +31,10 @@ jobs:
           test -f assets/interactive-preview.gif
           grep -q "CS Algorithms Interactive Course" cs_algorithms_interactive_course_500_pages.html
           grep -q "561 Pages" cs_algorithms_interactive_course_500_pages.html
+          grep -q "manual-curation-final" cs_algorithms_interactive_course_500_pages.html
+          grep -q "practice-studio" cs_algorithms_interactive_course_500_pages.html
+          grep -q "final-diagram-pass" cs_algorithms_interactive_course_500_pages.html
+          grep -q "final-anchor-pass" cs_algorithms_interactive_course_500_pages.html
 
   deploy:
     name: Deploy to GitHub Pages
