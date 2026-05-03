@@ -2,7 +2,7 @@
 
 [![Publish GitHub Pages](https://github.com/adybag14-cyber/Course-Interactive/actions/workflows/pages.yml/badge.svg)](https://github.com/adybag14-cyber/Course-Interactive/actions/workflows/pages.yml)
 
-A self-contained, browser-based computer science algorithms course with 500 printable pages, an exported Jupyter notebook, search, progress tracking, quizzes, reference code sketches, and interactive visualizers.
+A self-contained, browser-based computer science algorithms course with 561 printable pages, an exported Jupyter notebook, search, progress tracking, quizzes, reference code sketches, page-specific labs, working diagrams, and interactive visualizers.
 
 Open the live course here:
 
@@ -18,7 +18,7 @@ Direct HTML fallback:
 
 This repository contains a complete static course that can be opened directly in a browser or published through GitHub Pages without a build step.
 
-- `cs_algorithms_interactive_course_500_pages.html` - the main self-contained course export.
+- `cs_algorithms_interactive_course_500_pages.html` - the main self-contained 561-page course export.
 - `cs_algorithms_interactive_course_500_pages.ipynb` - the companion notebook source/export.
 - `index.html` - a small redirect page so the GitHub Pages root opens the course immediately.
 - `.github/workflows/pages.yml` - the CI workflow that validates the static files and deploys them to GitHub Pages.
@@ -26,7 +26,8 @@ This repository contains a complete static course that can be opened directly in
 
 ## Course Features
 
-- 500 pages of algorithms material organized into 31 chapters.
+- 561 pages of algorithms material organized into 37 chapters.
+- Warm high-contrast reader theme tuned for long study sessions.
 - Search across the full course from the top toolbar.
 - Page number jump, table of contents navigation, and keyboard navigation.
 - Local progress tracking with page completion checkboxes.
@@ -35,11 +36,14 @@ This repository contains a complete static course that can be opened directly in
 - Checkpoint quizzes with revealable answers.
 - Practice tasks for each topic.
 - Browser-only interactive widgets that do not need a backend.
+- A runnable page-specific lab, real code card, and rendered working diagram on every routed lesson page.
 
 ## Interactive Sections
 
 The exported HTML includes several hands-on widgets:
 
+- Page-specific labs - run the unique miniature example attached to each lesson.
+- Page-specific working diagrams - trace sample input, invariant, transition, and output for each lesson.
 - Complexity Explorer - compare growth functions and input sizes on a canvas.
 - Binary Search Stepper - walk through a half-open interval search.
 - Sorting Visualizer - animate bubble, insertion, and selection sort.
@@ -67,6 +71,7 @@ The course moves from foundations into advanced topics:
 - Graph traversal, DAG algorithms, shortest paths, MSTs, and flow.
 - Dynamic programming, greedy methods, backtracking, string algorithms, and computational geometry.
 - Randomized algorithms, approximation, streaming, external-memory ideas, systems algorithms, crypto, AI search, and final practice projects.
+- Beginner bootcamp, visual algorithm atlas, interactive practice tracks, GitHub Pages publishing notes, accessibility checks, capstone rubrics, and a citation map.
 
 ## Run Locally
 

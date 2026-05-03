@@ -30,6 +30,7 @@ jobs:
           test -f cs_algorithms_interactive_course_500_pages.ipynb
           test -f assets/interactive-preview.gif
           grep -q "CS Algorithms Interactive Course" cs_algorithms_interactive_course_500_pages.html
+          grep -q "561 Pages" cs_algorithms_interactive_course_500_pages.html
 
   deploy:
     name: Deploy to GitHub Pages
